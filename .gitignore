@@ -1,0 +1,29 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+*.pyc
+env/
+*.vscode
+*.sh
+/env
+.idea
+*.pyc
+*.vscode
+*.sh
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+
+# Django stuff:
+*.log
+*.pot
+__init__.py
