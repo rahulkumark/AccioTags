@@ -25,7 +25,7 @@ Example request body :
 "input_url":"https://www.machinelearningplus.com/python/python-regex-tutorial-examples/"
 }
 
-Respose :
+Response :
 
 [
   "python",
@@ -33,12 +33,12 @@ Respose :
   "tutorial"
 ]
 
-cURL for the about request:
+cURL for the above request:
 
 replace ngrok link with base URL
 
 curl --request POST \
-  --url https://f8a943a40814.ngrok.io/tag_generator \ 
+  --url https://f8a943a40814.ngrok.io/tag_generator \
   --header 'content-type: application/json' \
   --data '{
 "input_url":"https://www.machinelearningplus.com/python/python-regex-tutorial-examples/"
