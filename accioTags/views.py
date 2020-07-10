@@ -33,8 +33,8 @@ class FetchTags(APIView):
 
             tags = urlparse(data['input_url']) #get path from url
             pattern = re.compile(r'(\w+)')
-            matches = pattern.finditer(tags.path) # get all words from url
-
+            matches = pattern.finditer(tags.path + tags.fragment) # get all words from url
+            print(mathes)
             for match in matches:
                 words.append(match.group()) #storing words in a list
 

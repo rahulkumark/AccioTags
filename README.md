@@ -16,7 +16,7 @@ to install and import nltk
 1. Run pip install nltk
 2. Run python
 3. type 'import nltk' hit enter
-4. type 'nltk.download()' //downloads nltk modules select nltk corpus(required) module only from the list
+4. type 'nltk.download()' //downloads nltk modules *select nltk corpus(required) module only from the list*
 
 
 Example request body :
